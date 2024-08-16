@@ -4,7 +4,7 @@ function addUser(id,nome){
 }
 
 function searchUser(id) {
-    return id in dic;
+    if(id in dic){return dic[id]};
 }
 
 function editUser(id,nome){
@@ -18,8 +18,8 @@ function deleteUser(id){
     }
 }
 
-addUser(1,2);
-addUser(2,2);
-editUser(2,6666)
-deleteUser(1)
+addUser(1,"jorge");
+addUser(2,"mike");
+editUser(2,"Rodolf")
+console.log(searchUser(1))
 console.log(dic)
