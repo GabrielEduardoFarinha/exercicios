@@ -1,1 +1,2 @@
-Repositorio dedicado aos exercicios da aula de IOT
+Repositorio dedicado aos exercicios das aulas de IOT e Mobile
+
